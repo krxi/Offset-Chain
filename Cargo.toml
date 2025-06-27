@@ -1,0 +1,9 @@
+[package]
+name = "mynewhack"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+toy-arms = {git = "https://github.com/vxcall/toy-arms", features = ["external"]}
+winapi = "0.3.9"
